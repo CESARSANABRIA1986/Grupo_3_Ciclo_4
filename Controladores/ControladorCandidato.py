@@ -1,6 +1,5 @@
-from Repositorios.RepositorioCandidato import RepositorioCandidato
+from Repositorios.RepositorioCandidato import  RepositorioCandidato
 from Modelos.ModeloCandidato import ModeloCandidato
-
 class ControladorCandidato():
     def __init__(self):
         self.repositorioCandidato = RepositorioCandidato()
